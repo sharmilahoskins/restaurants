@@ -1,0 +1,45 @@
+body{
+  font-family: fantasy;
+  background-image: url(http://0.s3.envato.com/files/172088373/CanadaFlagGrungebg2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+h1{
+  font-size: 50px;
+  text-align: center;
+  margin: auto;
+  padding: 50px;
+}
+img{
+  width: 200px;
+  height: 150px;
+}
+.r1, .r2, .r3, .r4, .r5, .r6{
+  padding: 40px;
+  margin: 60px;
+}
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.header, .footer {
+  flex: 1 100%;
+}
+
+@media all and (min-width: 600px) {
+    .rest { flex-direction: column;}
+}
+
+.footer {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  background-color: gray;
+  margin-top: 60px;
+
+}
